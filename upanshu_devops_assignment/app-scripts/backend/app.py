@@ -15,8 +15,8 @@ def create_connection():
     connection = mysql.connector.connect(
         host="34.107.55.92",
         port="3306",
-        user="root",
-        password="password",
+        user="",
+        password="",
         database="users"
     )
     return connection
