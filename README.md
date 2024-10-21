@@ -3,10 +3,6 @@
 ## Implementation Description
    The frontend written in html has been hosted as a static website on a GCS bucket, while the backend is a Flask API which is running in a VM instance. The API connects to a MySQL DB hosted in a cloud sql instance in the Google Cloud project.
 
-## Architecture Diagram
-
-![Architecture Diagram](path/to/architecture-diagram.png) <!-- Replace with the path to your diagram -->
-
 ## Setup
 
 1. **Repository:**
@@ -45,5 +41,5 @@
 6. **Access the Application:**
     - Visit the provided URLs to access your frontend and backend APIs.
     - flask_backend_ip = "34.89.141.149"
-    - frontend_url = "https://storage.googleapis.com/frontend-bucket-atlys-assignment-439100/index.html"
+    - frontend_url = "https://storage.googleapis.com/frontend-bucket-atlys-assignment-439100/index.html" (The browser may throw an insecure site popup due to the self signed certificate, this can also be improved upon by adding a DNS in future improvements.)
 
