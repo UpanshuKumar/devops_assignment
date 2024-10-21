@@ -41,5 +41,6 @@
 6. **Access the Application:**
     - Visit the provided URLs to access your frontend and backend APIs.
     - flask_backend_ip = "34.89.141.149"
+    - Click on this link https://34.89.141.149:8443/users and on warning page click **Advanced** to bypass the warning.
     - frontend_url = "https://storage.googleapis.com/frontend-bucket-atlys-assignment-439100/index.html" (The browser may throw an insecure site popup due to the self signed certificate, this can also be improved upon by adding a DNS in future improvements.)
 
